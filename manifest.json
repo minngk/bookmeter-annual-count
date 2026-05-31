@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "読書メーター 年間冊数",
+  "version": "1.0",
+  "description": "読書メーターの今年の読書冊数をバッジで表示します",
+  "permissions": ["storage", "alarms"],
+  "host_permissions": ["https://bookmeter.com/*"],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "読書メーター 年間冊数",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+    }
+  }
+}
