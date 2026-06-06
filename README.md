@@ -2,6 +2,8 @@
 
 読書メーター（bookmeter.com）の今年の読書冊数をブラウザのバッジに表示する Chrome 拡張機能です。
 
+![デモ](demo.png)
+
 ## 機能
 
 - 今年の読書冊数をツールバーのバッジにリアルタイム表示
@@ -10,7 +12,9 @@
 
 ## インストール
 
-### Chrome Web Store（準備中）
+### Chrome Web Store
+
+[Chrome Web Store からインストール](https://chromewebstore.google.com/detail/peobgjilpbbmdmbfceniffcdhoajfjlc)
 
 ### 手動インストール（開発者向け）
 
